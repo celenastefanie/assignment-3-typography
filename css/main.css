@@ -1,0 +1,65 @@
+html{
+  background-color: cornsilk;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 3rem;
+  font-style: normal;
+  text-decoration: ;
+  font-family: "Bevan", cursive;
+  line-height: 1.5;
+  color: #903;
+
+}
+
+h2{
+  font-weight: normal;
+  font-size: 2rem;
+  font-style: normal;
+  text-decoration: ;
+  font-family: "Bevan", cursive;
+  line-height: 1.5;
+  color: #903;
+}
+
+h3{
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: normal;
+  text-decoration: ;
+  font-family: "Bevan", cursive;
+  line-height: 1.5;
+  color: #903;
+}
+
+ol{
+  padding: 0;
+}
+
+.lower-roman {
+  list-style-type: lower-roman;
+  padding: 30px;
+}
+
+a{
+  color: #000;
+}
+
+a:hover{
+  color: #f99;
+}
+
+em{
+  color: #6c9;
+}
+
+.no-color {
+  color: #000;
+}
+
+cite {
+  font-size: .75rem;
+  color: #666;
+
+}

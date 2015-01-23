@@ -8,7 +8,7 @@ h1{
   font-style: normal;
   text-decoration: ;
   font-family: "Bevan", cursive;
-  line-height: 1.5;
+  line-height: 0;
   color: #903;
 
 }
@@ -19,7 +19,7 @@ h2{
   font-style: normal;
   text-decoration: ;
   font-family: "Bevan", cursive;
-  line-height: 1.5;
+  line-height: 0;
   color: #903;
 }
 
@@ -29,10 +29,13 @@ h3{
   font-style: normal;
   text-decoration: ;
   font-family: "Bevan", cursive;
-  line-height: 1.5;
+  line-height: 0;
   color: #903;
 }
 
+body{
+  font-family: 'Oswald', sans-serif;
+}
 ol{
   padding: 0;
 }
@@ -58,8 +61,31 @@ em{
   color: #000;
 }
 
-cite {
-  font-size: .75rem;
+footer {
+  font-size: 1rem;
   color: #666;
+  text-align: center;
+}
 
+blockquote{
+  font-size: 2rem;
+  font-style: italic;
+}
+
+span{
+  color: #666;
+}
+
+figcaption{
+  font-style: italic;
+  font-size: .65rem;
+}
+
+dt{
+  font-weight: bold;
+}
+
+.bullet{
+  list-style-type: circle;
+  padding: 30px;
 }
